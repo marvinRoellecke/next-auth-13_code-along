@@ -38,6 +38,14 @@ if (process.env.VERCEL_ENV === "preview") {
 
 export const authOptions = {
   // Configure one or more authentication providers
+  providers,
+  // ...add more providers here
+};
+
+export default NextAuth(authOptions);
+
+/* export const authOptions = {
+  // Configure one or more authentication providers
   providers: [
     GithubProvider({
       clientId: process.env.GITHUB_ID,
@@ -45,6 +53,4 @@ export const authOptions = {
     }),
     // ...add more providers here
   ],
-};
-
-export default NextAuth(authOptions);
+}; */
