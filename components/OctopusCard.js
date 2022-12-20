@@ -27,6 +27,6 @@ const StyledCard = styled.div`
   background-color: ${({color}) => color};
   border: 1px solid black;
   border-radius: 5px;
-  width: 410px;
-  height: 410px;
+  width: 400px;
+  height: 400px;
 `;
